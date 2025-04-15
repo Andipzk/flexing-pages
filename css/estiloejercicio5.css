@@ -1,0 +1,39 @@
+.contenedor {
+    display: flex;
+    height: 100vh; 
+  }
+  
+  .columna-izquierda {
+    background-color: #f9ebe2;
+    color: rgb(0, 0, 0);
+    flex: 2; 
+    padding: 10px;
+    border: #000000 1px solid;
+    flex: 0 0 75%;
+  }
+  
+  .derecha {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .parte-alta,
+  .parte-baja {
+    flex: 1;
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: #d7a07e;
+
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+  }
+  .montserrat-alternates-regular-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
